@@ -1,24 +1,33 @@
-a. Portada
-Nombre de la librería
 ConversorMonedasJS
 
+
+
+Desarrollado por: José Manuel Cruz Cristales y Alejandro Valencia Tenorio
+
+¿Qué es?
+
+ConversorMonedasJS es una librería ligera en JavaScript que permite convertir cantidades entre diferentes monedas en tiempo real desde una página web, utilizando una API pública y sin configuraciones complicadas.
+
 Autores
+
 José Manuel Cruz Cristales
+
 Alejandro Valencia Tenorio
 
-Breve descripción
-Esta librería en JavaScript permite convertir cantidades entre diferentes monedas en tiempo real. Se conecta a una API pública para obtener tasas de cambio actualizadas y muestra los resultados directamente en una página web. Es ideal para integrar funciones de conversión de monedas en cualquier proyecto HTML de forma rápida y sencilla.
+Instalación
 
-b. Instalación
-Para usar la librería, descárgala y agrégala en tu archivo HTML justo antes de la etiqueta de cierre </body>:
+Descarga monedas_lib.js.
+
+Agrégala en tu HTML antes de la etiqueta </body>:
 
 <script src="monedas_lib.js"></script>
-c. Uso
+
+Nota: Esta librería requiere conexión a Internet para funcionar correctamente.
+
+Uso rápido
+
 Prepara tu HTML con los IDs requeridos:
 
-html
-Copiar
-Editar
 <select id="moneda-uno">
   <option value="MXN">MXN</option>
   <option value="USD">USD</option>
@@ -34,6 +43,7 @@ Editar
 </select>
 <input type="number" id="cantidad-dos" placeholder="Resultado" readonly>
 <div id="cambio"></div>
+
 Inicializa la librería al final de tu archivo HTML así:
 
 <script src="monedas_lib.js"></script>
@@ -47,11 +57,39 @@ Inicializa la librería al final de tu archivo HTML así:
     out:    'cambio'
   });
 </script>
+
 Cuando el usuario elige monedas y da clic en el botón, la librería se conecta a la API pública y realiza la conversión en tiempo real, mostrando el resultado y posibles mensajes en la interfaz.
-d. Capturas de pantalla
-A continuación, agrega imágenes de ejemplo mostrando la interfaz y/o la consola del navegador:
+
+Capturas
+
+Conversor funcionando
 
 
 
-(Puedes sustituir "ruta/a/tu_capturaX.png" por la ruta o URL real de tus imágenes)
+Resultado en la consola
 
+
+
+(Puedes sustituir "./captura1.png" o "./img/consola.png" por la ruta real de tus imágenes)
+
+Tabla de Archivos
+
+Archivo
+
+Descripción
+
+monedas_lib.js
+
+Librería principal de conversión
+
+index.html
+
+Ejemplo de implementación y pruebas
+
+captura1.png
+
+Captura del conversor en funcionamiento
+
+img/consola.png
+
+Captura de la consola de resultados
