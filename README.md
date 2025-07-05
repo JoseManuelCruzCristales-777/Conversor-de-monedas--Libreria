@@ -12,9 +12,6 @@ Esta librería en JavaScript permite convertir cantidades entre diferentes moned
 b. Instalación
 Para usar la librería, descárgala y agrégala en tu archivo HTML justo antes de la etiqueta de cierre </body>:
 
-html
-Copiar
-Editar
 <script src="monedas_lib.js"></script>
 c. Uso
 Prepara tu HTML con los IDs requeridos:
@@ -39,9 +36,6 @@ Editar
 <div id="cambio"></div>
 Inicializa la librería al final de tu archivo HTML así:
 
-html
-Copiar
-Editar
 <script src="monedas_lib.js"></script>
 <script>
   iniciarConversor({
@@ -54,7 +48,6 @@ Editar
   });
 </script>
 Cuando el usuario elige monedas y da clic en el botón, la librería se conecta a la API pública y realiza la conversión en tiempo real, mostrando el resultado y posibles mensajes en la interfaz.
-
 d. Capturas de pantalla
 A continuación, agrega imágenes de ejemplo mostrando la interfaz y/o la consola del navegador:
 
