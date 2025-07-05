@@ -1,4 +1,3 @@
-ConversorMonedasJS
 a. Portada
 Nombre de la librería
 ConversorMonedasJS
@@ -62,3 +61,4 @@ A continuación, agrega imágenes de ejemplo mostrando la interfaz y/o la consol
 
 
 (Puedes sustituir "ruta/a/tu_capturaX.png" por la ruta o URL real de tus imágenes)
+
