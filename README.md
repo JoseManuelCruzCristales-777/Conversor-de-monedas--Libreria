@@ -66,14 +66,14 @@ Editar
 Cuando el usuario elige monedas y da clic en el botón, la librería se conecta a la API pública y realiza la conversión en tiempo real, mostrando el resultado y posibles mensajes en la interfaz.
 ```
 ## Capturas
+
 ### Conversor funcionando
 
-![Conversor funcionando](./captura1.png)
+![Conversor funcionando](./Captura%20de%20pantalla%202025-07-04%20213022.png)
 
 ### Resultado en la consola
 
-![Consola mostrando resultado](./img/consola.png)
-
+![Consola mostrando resultado](./Captura%20de%20pantalla%202025-07-04%20213027.png)
 
 
 
