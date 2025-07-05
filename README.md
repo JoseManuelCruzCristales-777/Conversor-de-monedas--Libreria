@@ -1,33 +1,37 @@
-ConversorMonedasJS
+# ConversorMonedasJS
 
+> **Desarrollado por:** José Manuel Cruz Cristales y Alejandro Valencia Tenorio
 
+---
 
-Desarrollado por: José Manuel Cruz Cristales y Alejandro Valencia Tenorio
+## ¿Qué es?
 
-¿Qué es?
+`ConversorMonedasJS` es una librería ligera en JavaScript que permite convertir cantidades entre diferentes monedas en tiempo real desde una página web, utilizando una API pública y sin configuraciones complicadas.
 
-ConversorMonedasJS es una librería ligera en JavaScript que permite convertir cantidades entre diferentes monedas en tiempo real desde una página web, utilizando una API pública y sin configuraciones complicadas.
+---
 
-Autores
+## Autores
 
-José Manuel Cruz Cristales
+- **José Manuel Cruz Cristales**
+- **Alejandro Valencia Tenorio**
 
-Alejandro Valencia Tenorio
+---
 
-Instalación
+## Instalación
 
-Descarga monedas_lib.js.
+1. Descarga `monedas_lib.js`.
+2. Agrégala en tu HTML antes de la etiqueta `</body>`:
 
-Agrégala en tu HTML antes de la etiqueta </body>:
-
+```html
 <script src="monedas_lib.js"></script>
-
 Nota: Esta librería requiere conexión a Internet para funcionar correctamente.
 
 Uso rápido
-
 Prepara tu HTML con los IDs requeridos:
 
+html
+Copiar
+Editar
 <select id="moneda-uno">
   <option value="MXN">MXN</option>
   <option value="USD">USD</option>
@@ -43,9 +47,11 @@ Prepara tu HTML con los IDs requeridos:
 </select>
 <input type="number" id="cantidad-dos" placeholder="Resultado" readonly>
 <div id="cambio"></div>
-
 Inicializa la librería al final de tu archivo HTML así:
 
+html
+Copiar
+Editar
 <script src="monedas_lib.js"></script>
 <script>
   iniciarConversor({
@@ -57,39 +63,11 @@ Inicializa la librería al final de tu archivo HTML así:
     out:    'cambio'
   });
 </script>
-
 Cuando el usuario elige monedas y da clic en el botón, la librería se conecta a la API pública y realiza la conversión en tiempo real, mostrando el resultado y posibles mensajes en la interfaz.
-
-Capturas
-
-Conversor funcionando
+```
+## Capturas
 
 
 
-Resultado en la consola
 
-
-
-(Puedes sustituir "./captura1.png" o "./img/consola.png" por la ruta real de tus imágenes)
-
-Tabla de Archivos
-
-Archivo
-
-Descripción
-
-monedas_lib.js
-
-Librería principal de conversión
-
-index.html
-
-Ejemplo de implementación y pruebas
-
-captura1.png
-
-Captura del conversor en funcionamiento
-
-img/consola.png
-
-Captura de la consola de resultados
+-------------------
