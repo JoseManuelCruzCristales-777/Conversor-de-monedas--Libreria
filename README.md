@@ -78,3 +78,6 @@ Cuando el usuario elige monedas y da clic en el botón, la librería se conecta 
 
 
 -------------------
+
+#VIDEO
+Consulta la [VistaPrevia](https://open.er-api.com/v6/latest/).
